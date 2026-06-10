@@ -1,0 +1,6 @@
+{
+  "name": "FLAMES Game",
+  "description": "Calculate love and relationship results using the nostalgic FLAMES algorithm, with admin panel and Google Sheets integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

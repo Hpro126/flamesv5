@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800;950&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", sans-serif;
+  --font-display: "Anton", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-brand-pink: #FF2D55;
+  --color-sand-bg: #F9F7F2;
+}
+
+@layer utilities {
+  .neo-shadow {
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+  .neo-shadow-lg {
+    box-shadow: 8px 8px 0px 0px #000000;
+  }
+  .neo-shadow-sm {
+    box-shadow: 2px 2px 0px 0px #000000;
+  }
+}
